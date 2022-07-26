@@ -1,8 +1,8 @@
-name: sample-python
+name: app_demo
 services:
 - environment_slug: python
   github:
     branch: master
     deploy_on_push: true
-    repo: digitalocean/sample-python
-  name: sample-python
+    repo: kabuchanga/digtalocean_app_demo
+  name: app_demo
